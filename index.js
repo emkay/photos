@@ -7,7 +7,9 @@ function Gallery(container) {
     this.photoListItems = this.container.querySelectorAll('li');
     this.length = this.photoListItems.length;
 
-    bean.on(this.container, 'click', '.item', clickHandler.bind(this));
+    bean.on(this.container, 'click', '.item', function (e) {
+        clickHandler.call(this, e)
+    });
 
     for (var i = 0; i < this.length; ++i) {
         if (i !== 0) {

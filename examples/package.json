@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "Examples",
+  "main": "example.js",
+  "scripts": {},
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "photos": "^1.0.1"
+  }
+}

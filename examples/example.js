@@ -1,2 +1,2 @@
-var photos = require('photos');
-var g = new photos.Gallery('.photos');
+var Photos = require('photos');
+var g = new Photos('.photos');
