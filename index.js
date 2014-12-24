@@ -17,15 +17,11 @@ function Gallery(container) {
 }
 
 function clickHandler(e) {
-    console.log('clicked: ', e);
     var el = e.currentTarget;
     var img = el.querySelector('img');
     var width = img.width;
     var half = width / 2;
     var x = e.clientX;
-
-    console.log('width: ', width);
-    console.log('client X:', e.clientX);
 
     hide(el);
     if (half <= x) {
